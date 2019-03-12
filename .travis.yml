@@ -45,7 +45,7 @@ script:
 
 addons:
   sonarcloud:
-    organization: "projectname" # der key der organisation auf sonarcloud.io
+    organization: "Se2_SingleProject" # der key der organisation auf sonarcloud.io
     token:
       secure: $SONAR_TOKEN       # $SONAR_TOKEN -> Umgebungsvariable auf travis-ci.org
 
